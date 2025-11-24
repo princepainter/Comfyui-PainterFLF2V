@@ -1,9 +1,16 @@
 # ComfyUI-PainterFLF2V  
-### 增强视频动态，让首尾帧丝滑过渡！让首尾帧视频“动”得更自然、更干净  
-*Enhance video dynamics for smooth transitions between the first and last frames！Make first-last-frame videos move smoother & cleaner*
+### 增强视频动态，让首尾帧丝滑过渡！让首尾帧视频“动”得更自然、更干净！现在你可以用PainterFLF2V来制作顺滑的首尾帧视频，就像这样：
+*Enhance video dynamics for smooth transitions between the first and last frames！Make first-last-frame videos move smoother & cleaner，Now you can use PainterFLF2V to create smooth first-and-last-frame videos, just like this:*
 
 ---
-
+<table>
+  <tr>
+    <td><img src="image-6/wan2-2_00004.gif" alt="图1" width="400"></td>
+  </tr>
+  <tr>
+    <td>motion_amplitude=1.3</td>
+  </tr>
+</table>
 ## 🎬 简介 | Intro
 PainterFLF2V 是对官方 WAN 首尾帧节点的“动态增强升级版”，你可以调节Motion Amplitude的数值，自定义视频的动态增强幅度。 
 通过**反向结构斥力**算法，一键消除慢动作与重影，同时保护颜色不失真。  
