@@ -11,6 +11,7 @@
     <td>motion_amplitude=1.3</td>
   </tr>
 </table>
+
 ## 🎬 简介 | Intro
 PainterFLF2V 是对官方 WAN 首尾帧节点的“动态增强升级版”，你可以调节Motion Amplitude的数值，自定义视频的动态增强幅度。 
 通过**反向结构斥力**算法，一键消除慢动作与重影，同时保护颜色不失真。  
