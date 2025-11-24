@@ -5,7 +5,7 @@
 ---
 <table>
   <tr>
-    <td><img src="image-6/wan2-2_00004.gif" alt="图1" width="400"></td>
+    <td><img src="image-6/wan2-2_00006.gif" alt="图1" width="684"></td>
   </tr>
   <tr>
     <td>motion_amplitude=1.3</td>
