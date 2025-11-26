@@ -43,9 +43,16 @@ Using **inverse structural repulsion**, it erases ghosting & sluggish motion whi
 ---
 
 ## 🚀 快速开始 | Quick Start
-1. 克隆到 `custom_nodes`  
+1.  📦 通过 ComfyUI Manager 安装： 进入 Install Custom Nodes，搜索 PainterFLF2V 。
+   
+  Install via ComfyUI Manager，Go to Install Custom Nodes, search for PainterFLF2V
+
+  如需手动安装，请克隆到 `custom_nodes`。
+
+  For manual install, clone into ComfyUI/custom_nodes/ and restart.  
    ```bash
    git clone https://github.com/princepainter/Comfyui-PainterFLF2V.git
+ ```
 2. 重启 ComfyUI  
    Restart ComfyUI
 3. 工作流中把 `PainterFLF2V` 替换掉原生首尾帧节点即可  
