@@ -29,7 +29,7 @@ class PainterFLF2V(io.ComfyNode):
                 io.Int.Input("batch_size", default=1, min=1, max=4096),
                 # 修改：限制范围 1.0 - 2.0
                 io.Float.Input("motion_amplitude", default=1.0, min=1.0, max=2.0, step=0.05, 
-                               tooltip="1.0=官方原版，2.0=极速动态(消除慢动作)"),
+                               tooltip="1.0 = Official Original Version2.0 = High-Speed Dynamic (Slow Motion Removed)"),
                 io.ClipVisionOutput.Input("clip_vision_start_image", optional=True),
                 io.ClipVisionOutput.Input("clip_vision_end_image", optional=True),
                 io.Image.Input("start_image", optional=True),
@@ -171,3 +171,4 @@ async def comfy_entrypoint() -> PainterFLF2VExtension:
 
 NODE_CLASS_MAPPINGS = {"PainterFLF2V": PainterFLF2V}
 NODE_DISPLAY_NAME_MAPPINGS = {"PainterFLF2V": "PainterFLF2V"}
+
